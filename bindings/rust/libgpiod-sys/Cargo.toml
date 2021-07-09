@@ -1,0 +1,7 @@
+[package]
+name = "libgpiod-sys"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+libc = { version="0.2.97", features=["extra_traits"] }

@@ -329,7 +329,7 @@ bool gpiod_line_is_active_low(struct gpiod_line *line);
  * @brief Read the GPIO line bias setting.
  * @param line GPIO line object.
  * @return Returns GPIOD_LINE_BIAS_PULL_UP, GPIOD_LINE_BIAS_PULL_DOWN,
- *         GPIOD_LINE_BIAS_DISABLE or GPIOD_LINE_BIAS_UNKNOWN.
+ *         GPIOD_LINE_BIAS_DISABLED or GPIOD_LINE_BIAS_UNKNOWN.
  */
 int gpiod_line_bias(struct gpiod_line *line);
 
